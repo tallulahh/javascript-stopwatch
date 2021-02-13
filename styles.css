@@ -1,0 +1,40 @@
+body {
+  text-align: center;
+  background-color: #03011f;
+  font-family: "Source Sans Pro";
+  color: #6cacc5;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#time {
+  font-size: 70px;
+  position:absolute;
+  top: 25%;
+  margin: 0 auto;
+  left: 0; right: 0;
+}
+
+.buttons {
+  position: absolute;
+  width: 100%;
+  bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.button {
+  width: 100px;
+  padding: 2% 2%;
+  font-size: 20px;
+  background: rgba(42,50,113, .28);
+cursor: pointer;
+}
+
+.button:hover {
+  background: #201e40;
+}
